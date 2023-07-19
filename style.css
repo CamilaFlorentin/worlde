@@ -1,5 +1,19 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: linear-gradient(
+  0deg,
+  hsl(240deg 100% 52%) 0%,
+  hsl(246deg 91% 49%) 10%,
+  hsl(250deg 90% 46%) 21%,
+  hsl(254deg 89% 43%) 31%,
+  hsl(259deg 88% 40%) 41%,
+  hsl(264deg 87% 36%) 51%,
+  hsl(279deg 88% 34%) 61%,
+  hsl(293deg 89% 32%) 71%,
+  hsl(305deg 91% 33%) 81%,
+  hsl(314deg 94% 36%) 90%,
+  hsl(321deg 100% 39%) 100%
+);
   }
      
   h1 {
@@ -52,3 +66,4 @@ body {
   #contenedor{
     text-align: center ;
   }
+
