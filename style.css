@@ -1,19 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg");
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
     background-image: linear-gradient(
-  0deg,
-  hsl(240deg 100% 52%) 0%,
-  hsl(246deg 91% 49%) 10%,
-  hsl(250deg 90% 46%) 21%,
-  hsl(254deg 89% 43%) 31%,
-  hsl(259deg 88% 40%) 41%,
-  hsl(264deg 87% 36%) 51%,
-  hsl(279deg 88% 34%) 61%,
-  hsl(293deg 89% 32%) 71%,
-  hsl(305deg 91% 33%) 81%,
-  hsl(314deg 94% 36%) 90%,
-  hsl(321deg 100% 39%) 100%
-);
+      0deg,
+      hsl(240deg 100% 52%) 0%,
+      hsl(246deg 91% 49%) 10%,
+      hsl(250deg 90% 46%) 21%,
+      hsl(254deg 89% 43%) 31%,
+      hsl(259deg 88% 40%) 41%,
+      hsl(264deg 87% 36%) 51%,
+      hsl(279deg 88% 34%) 61%,
+      hsl(293deg 89% 32%) 71%,
+      hsl(305deg 91% 33%) 81%,
+      hsl(314deg 94% 36%) 90%,
+      hsl(321deg 100% 39%) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 3000px 1000px ;
   }
      
   h1 {
@@ -25,10 +29,14 @@ body {
     display: block;
     margin: 0 auto 20px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     width: 250px;
-    border: 1px solid #ccc;
+    border: 10px solid purple;
+    background-color: rgba(238, 206, 206, 0.333);
+    height: 10px;
+    
   }
+
      
   #guess-button {
     display: block;
@@ -39,6 +47,7 @@ body {
     color: #fff;
     border: none;
     border-radius: 3px;
+    
   }
      
   button:active {
@@ -63,7 +72,9 @@ body {
       margin: 30px;
   }
   
-  #contenedor{
-    text-align: center ;
+  #grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
+  
